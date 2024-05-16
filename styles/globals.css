@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #333333a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #101010;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Titre */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Champ de texte */
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Bouton */
+button[type="submit"] {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005bb5;
+}
+
+/* Liste des prénoms */
+.notNav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.otNav {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.NameAdnButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.deleteButton {
+  padding: 10px;
+  background-color: #f30000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ;
+}
+.deleteButton:hover {
+  background-color: #e27171;
+}
